@@ -17,7 +17,7 @@ app:
   # Cloudflared 版本号
   argo-version: "2026.7.1"
   # Argo Tunnel 的访问域名，启用固定隧道需要设置
-  argo-domain: "world.139889.xyz"
+  argo-domain: ""
   # Argo Tunnel 的访问令牌，启用固定隧道需要设置
   argo-token: ""
   # 节点备注的前缀标识
