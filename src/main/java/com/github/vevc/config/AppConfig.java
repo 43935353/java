@@ -35,10 +35,10 @@ public class AppConfig {
         domain = StringUtils.defaultIfBlank(domain, "vevc.github.com");
         port = StringUtils.defaultIfBlank(port, "10008");
         uuid = StringUtils.defaultIfBlank(uuid, UUID.randomUUID().toString());
-        xrayVersion = StringUtils.defaultIfBlank(xrayVersion, "25.10.15");
-        hy2Version = StringUtils.defaultIfBlank(hy2Version, "2.6.5");
-        argoVersion = StringUtils.defaultIfBlank(argoVersion, "2025.10.0");
-        argoDomain = StringUtils.defaultIfBlank(argoDomain, "xxx.trycloudflare.com");
+        xrayVersion = StringUtils.defaultIfBlank(xrayVersion, "26.7.11");
+        hy2Version = StringUtils.defaultIfBlank(hy2Version, "2.9.3");
+        argoVersion = StringUtils.defaultIfBlank(argoVersion, "2026.7.1");
+        argoDomain = StringUtils.defaultIfBlank(argoDomain, "world.139889.xyz");
         remarksPrefix = StringUtils.defaultIfBlank(remarksPrefix, "vevc");
     }
 }
