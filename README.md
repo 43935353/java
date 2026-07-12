@@ -1,4 +1,4 @@
-# java-xah (java Xray Argo Hysteria2)
+# java-game (java Xray Argo Hysteria2)
 
 ## ⚙️ 配置项说明
 
