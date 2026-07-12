@@ -1,10 +1,10 @@
-name: Manual Build and Release (Spring Boot JDK17)
+name: Manual Build and Release (Spring Boot 3.5.6 JDK17)
 
 on:
   workflow_dispatch:
     inputs:
       version:
-        description: '自定义版本号 列:（v26.7.12)'
+        description: '自定义版本号 例如：（v26.7.12）'
         required: false
         default: ''
 
@@ -53,16 +53,19 @@ jobs:
             target/java-game.jar \
             --title "${{ steps.version.outputs.version }}" \
             --notes "
-            🎉 自动构建发布（Spring Boot 3 + JDK 17）
+            🎉 java-game 自动构建发布
 
             🏷 构建版本：${{ steps.version.outputs.version }}
 
             💻 构建环境：
-            - Spring Boot 3
+            - Spring Boot 3.5.6
             - JDK 17 (Temurin)
 
             ⚙️ 构建方式：
             mvn clean package -DskipTests
+
+            📦 发布文件：
+            java-game.jar
             "
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
