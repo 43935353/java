@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>com.github.vevc</groupId>
-    <artifactId>java-xah</artifactId>
+    <artifactId>java-game</artifactId>
     <version>25.10.15</version>
 
     <properties>
@@ -78,7 +78,7 @@
     </dependencies>
 
     <build>
-        <finalName>java-xah</finalName>
+        <finalName>java-game</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
