@@ -11,13 +11,13 @@ app:
   # 用户身份验证唯一标识符。若未设置，将自动随机生成
   uuid: "2584b733-9095-4bec-a7d5-62b473540f7a"
   # Xray 核心版本号
-  xray-version: "25.10.15"
+  xray-version: "26.7.11"
   # Hysteria2 核心版本号
-  hy2-version: "2.6.5"
+  hy2-version: "2.9.3"
   # Cloudflared 版本号
-  argo-version: "2025.10.0"
+  argo-version: "2026.7.1"
   # Argo Tunnel 的访问域名，启用固定隧道需要设置
-  argo-domain: ""
+  argo-domain: "world.139889.xyz"
   # Argo Tunnel 的访问令牌，启用固定隧道需要设置
   argo-token: ""
   # 节点备注的前缀标识
