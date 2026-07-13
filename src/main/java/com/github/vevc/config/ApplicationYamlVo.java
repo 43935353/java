@@ -59,6 +59,6 @@ public class ApplicationYamlVo {
 
     @Data
     public static class Application {
-        private String name = "java-xah";
+        private String name = "java-game";
     }
 }
